@@ -98,4 +98,114 @@ MIT License
 
 
 
-nmap -p 2222 --script ssh-brute --script-args userdb=/usr/share/wordlists/metasploit/unix_users.txt,passdb=/usr/share/wordlists/rockyou.txt 192.168.64.209
+
+
+
+
+
+Network security honeypot system based on Django and Vue
+[Information Security] [Network Security] [2026 New System]
+Specially designed to detect and record network attack behavior. There are multiple types of honeypots in the system, including SSH, FTP, HTTP, Telnet, MySQL, Redis, Modbus, and other protocol honeypots. Various network services are deployed to trap attackers. When an attacker attempts to attack/connect, the system will record real-time attack logs, including detailed information such as source IP, attack type, and attack data, and support visual analysis of attack behavior and network topology display.
+The system provides a complete web management interface, including lifecycle management such as starting, stopping, and deleting honeypots, as well as query, analysis, and export functions for attack logs. Support user permission management and data visualization. The project provides complete testing scripts, including SSH brute force cracking testing, FTP connection testing, and other functions, to help security researchers verify the effectiveness of honeypots and test network security protection capabilities.
+
+Graduation Design - Graduation Design - Network Security Graduation Design - Information Security Graduation Design - Network Security Graduation Design - Information Security Graduation Design - Network Security Graduation Design - Information Security Graduation Design - Topic Reference
+
+Demo video: [Network Security Honeypot System/Industrial Control Honeypot System/Network Security/Information Security/Network Security Graduation Design Topic Reference/Network Security Graduation Design Topic Reference/Information Security Graduation Design Topic Reference/Python/Vue/MySQL] https://www.bilibili.com/video/BV1M8nzzZE9d?vd_source=97984b4127eb90a391d8becfdefc0e9e
+
+#Network security honeypot system
+Naming options: Network Security Honeypot System/Industrial Control Honeypot System, etc
+A network security honeypot management system based on Django+Vue.js, used for deploying, monitoring, and managing various types of honeypots, real-time detection and analysis of network attacks. The system supports multiple types of honeypots and provides complete attack detection, logging, and visual analysis functions.
+
+##System architecture
+
+-Backend: Django
+-Front end: Vue ECharts
+-* * Database * *: MySQL
+-* * Testing Tool * *: Python Test Script
+
+##Functional characteristics
+
+###Core functions
+-  🔐  User authentication and permission management (based on Django user system)
+-  🍯  Honeypot Lifecycle Management (Create, Start, Stop, Delete)
+-  📊  Real time attack monitoring and statistical dashboard
+-  🌐  Network topology visualization (supports dynamic refresh)
+-  📝  Attack log recording and analysis (supporting severity grading)
+-  🚨  Security alerts and notifications
+-  🔧  Admin Panel
+
+###Honeypot type support
+-SSH honeypot: Supports brute force cracking detection and records login attempts
+-FTP Honeypot: Detection of File Transfer Protocol Attacks
+-HTTP Honeypot: Web Application Attack Detection
+-Telnet honeypot: Remote login attack detection
+-MySQL Honeypot: Database Attack Detection
+-Redis honeypot: Cache system attack detection
+-Modbus Honeypot: Industrial Protocol Attack Detection
+
+###Attack detection capability
+-Violent cracking attacks: SSH, FTP, HTTP and other protocols
+-Port scanning: Multi port scanning detection
+-SQL Injection: Web Application SQL Injection Detection
+-XSS attack: Cross site scripting attack detection
+-Protocol attacks: Detection of attacks on various network protocols
+-Abnormal behavior: Abnormal access pattern recognition
+
+
+
+
+###Functional characteristics
+-* * Multi protocol support * *: SSH, FTP, HTTP, Telnet, MySQL, Redis, Modbus
+-Attack simulation: brute force cracking, port scanning, protocol attacks
+-* * Result analysis * *: Detailed test report and statistics
+-* * Log Record * *: Complete Test Process Log
+-* * Data Export * *: Exporting test results in JSON format
+
+
+
+###Monitoring and maintenance
+
+-* * Database Backup * *: Regularly backup MySQL data
+-* * Log Monitoring * *: Monitor system logs and attack logs
+-* * Performance Monitoring * *: Monitor CPU, memory, and disk usage
+-* * Security Update * *: Regularly update the system and dependency packages
+-Honeypot Maintenance: Regularly check the status and configuration of the honeypot
+
+
+
+##Safety precautions
+
+-Regularly update the system and dependency packages
+-Use strong passwords and keys
+-Restricting network access permissions
+-Monitor abnormal activity
+-Regularly backup important data
+
+##License
+
+MIT License
+
+##Contribution Guide
+
+Developed by myself
+Network Security Direction
+
+##Contact Information
+
+If you have any questions or suggestions, please contact us through the following methods:
+
+-Email: 1841109483@qq.com
+- wechat: MrN1579
+
+
+
+
+
+
+
+
+
+
+
+
+
